@@ -1,0 +1,95 @@
+.cal-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.calories-intake {
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.calories-intake input,
+.calories-intake select {
+    width: 100%;
+    height: 30px;
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+    border: none;
+    outline: none;
+    background-color: #e2e2e2;
+    font-size: 1rem;
+    padding: 0 0.45rem;
+    border-radius: 5px;
+}
+
+.calories-intake label {
+    font-size: 1rem;
+}
+
+.cal-section .calculate {
+    border-radius: 10px;
+    border: none;
+    background-color: #e2e2e2;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.5rem 0;
+    transition: all 0.3s ease;
+
+}
+
+.cal-section .calculate:hover {
+    background-color: #cccccc;
+
+}
+
+.result-of-calculation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-image: linear-gradient(90deg, #fc00ff 30%, #00dbde 100%);
+
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+h3 {
+    margin-bottom: 0.3rem;
+    font-weight: normal;
+}
+
+@media screen and (max-width : 768px) {
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .calories-intake label,
+    .calories-intake input,
+    #pro {
+        font-size: 0.9rem;
+    }
+}
