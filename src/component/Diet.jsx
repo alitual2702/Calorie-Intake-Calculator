@@ -16,7 +16,7 @@ const Diet = () => {
  
 
   const handleClick = (event) => {
-    if (event.target.innerHTML == "Your Calories") {
+    if (event.target.innerHTML == "Calories Intake") {
       setcondition(false);
       calRef.current.classList.add("cyan");
       dietRef.current.classList.remove("pur");
